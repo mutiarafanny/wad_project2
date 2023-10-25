@@ -28,11 +28,11 @@
         <div class="col-md-4">
             <label for="input_dropdown" class="form-label">Pilih Opsi:</label>
             <select name="input_dropdown" id="input_dropdown" class="form-select">
-                <option value="pilihan1">Opsi 1</option>
-                <option value="pilihan2">Opsi 2</option>
-                <option value="pilihan3">Opsi 3</option>
-                <option value="pilihan3">Opsi 4</option>
-                <option value="pilihan3">Opsi 5</option>
+                <option value="Opsi 1">Opsi 1</option>
+                <option value="Opsi 2">Opsi 2</option>
+                <option value="Opsi 3">Opsi 3</option>
+                <option value="Opsi 4">Opsi 4</option>
+                <option value="Opsi 5">Opsi 5</option>
             </select>
         </div>
 
@@ -46,10 +46,8 @@
         </div>
 
         <div class="col-12">
-            <button type="submit" class="btn btn-primary">Hitung</button>
+            <button type="submit" class="btn btn-primary" input type="submit" name="hitung" value="Hitung">Hitung</button>
         </div>
-        
-        <!-- <input type="submit" name="hitung" value="Hitung"> -->
 
         <?php
             if (isset($_POST['hitung'])) {
